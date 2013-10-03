@@ -1,0 +1,32 @@
+{
+  "name": "syslog-parser",
+  "version": "0.0.0",
+  "description": "syslog protocol parser library",
+  "main": "SyslogParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kamilbiela/syslog-parser.git"
+  },
+  "keywords": [
+    "syslog",
+    "parser"
+  ],
+  "author": "Kamil Biela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamilbiela/syslog-parser/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-notify": "~0.2.13",
+    "benchmark": "~1.0.0"
+  },
+  "dependencies": {
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
